@@ -2426,3 +2426,48 @@ span.email-notes {
 		}
 }
 
+/*Changes*/
+
+details.details-example ul {
+    padding-left: 30px;
+}
+
+
+.slider-content {
+    padding: 80px 0;
+}
+
+
+
+.about-move {
+    min-height: 220px;
+}
+.blog-page.cat > div > .row > a {
+    width: auto;
+    min-width: 150px;
+    margin-left: 15px;
+}
+
+.blog-page.cat > div > .row > a:focus {
+    box-shadow: none;
+}
+
+
+@media(max-width:767px) {
+    div#services .row.text-center > div {
+        width: 50%;
+    }
+    .blog-page.area-padding > .container > .row > div {
+        width: 100%;
+    }
+    .page-area .slider-content {
+        padding: 60px 0;
+    }
+}
+
+
+@media(max-width:575px) {
+    div#services .row.text-center > div {
+        width: 100%;
+    }
+}
